@@ -589,5 +589,40 @@ font-style: normal;
 }
 
 
+A:link { 
+  COLOR: white;
+   }
+  
+  A:active { 
+  COLOR: black; 
+  TEXT-DECORATION: none 
+  
+  }
+  
+  A:hover { 
+  COLOR: orange; 
+  TEXT-DECORATION: none; 
+  font-weight: none 
+  
+  }
+  /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+  /* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color:  orange;
+}
 
 
